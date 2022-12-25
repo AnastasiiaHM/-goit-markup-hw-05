@@ -614,6 +614,25 @@ header {
   height: 100%;
   opacity: 0;
 }
-.portfolio-before:hover::before{
+.portfolio-before:hover::before,
+.portfolio-before:focus::before{
+  opacity: 1;
+}
+.portfolio-before-text{
+  color: var(--primery-bg-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height:1,56;
+  letter-spacing: 0.03em; 
+}
+.text-o{
+  position: absolute;
+  top:0;
+  left:0;
+  padding: 63px 24px;
+  opacity: 0;
+}
+.portfolio-before:hover .text-o,
+.portfolio-before:focus .text-o{
   opacity: 1;
 }
