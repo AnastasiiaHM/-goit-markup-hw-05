@@ -671,6 +671,7 @@ header {
   width: 100%;
   height: 100%;
   opacity: 0;
+
 }
 .portfolio-before:hover::before,
 .portfolio-before:focus::before {
